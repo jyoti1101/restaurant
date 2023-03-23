@@ -1,0 +1,44 @@
+<html>
+    <head><title>loader</title>
+        <script>
+            window.onload=function()
+            {
+             document.getElementById('loader').style.display="none";
+             document.getElementById('content').style.display="block";      
+            }
+            </script>
+            <style>
+                #content{
+                    display:none;
+                }
+             #content img{
+                width:100%;
+             } 
+             #loader{
+                border:0px solid red;
+                position:absolute;
+                margin:auto;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+                width:600px;
+                height:600px;
+             }
+             #loader img{
+                width:600px;
+             }  
+            </style>
+    </head>
+    <body>
+        <div id="loader">
+            <img src="https://cdn.dribbble.com/users/208061/screenshots/2677584/forever-burger.gif">
+        </div>
+        <div id="content">
+        <img src="https://img.onmanorama.com/content/dam/mm/en/travel/outside-kerala/images/2022/7/9/munnar-monsoon-rain-full-width.jpg">
+        <img src="https://craneww.com/site/assets/files/2374/monsoon-2.1200x800.jpg">
+        <img src="https://assets.thehansindia.com/h-upload/2022/06/13/1297507-monsoon.webp">
+        <img src="https://ds393qgzrxwzn.cloudfront.net/resize/m600x500/cat1/img/images/0/bYYXzIuU2v.jpg">
+    </div>
+    </body>
+    </html>

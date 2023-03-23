@@ -1,0 +1,298 @@
+<html>
+    
+    <head><title>home page</title></head>
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        
+    .jj{
+        min-height:70vh;
+        width:100%;
+        background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,0.7)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLmXfp1Ba2sUFAYTkWvjiE39TZojJkHfdtjA&usqp=CAU");
+        background-position:center;
+        background-size:cover;
+        position:relative;
+    }
+    nav{
+        display:flex;
+        padding:2% 6%;
+        justify-content:space-between;
+        align-item:center;
+    }
+    nav img{
+        width:120px;
+    }
+    .nav-links{
+        flex:1;
+        text-align:right;
+
+    }
+    .nav-links ul li{
+        list-style:none;
+        display:inline-block;
+        padding:8px 12px;
+        position:relative;
+    }
+    .nav-links ul li a{
+        color:#fff;
+        text-decoration:none;
+        font-size:13px;
+    }
+    .nav-links ul li::after{
+        content:"";
+        width:0;
+        height:2px;
+        background:#f44336;
+        display:block;
+        margin:auto;
+        transition:0.5s;
+
+    }
+    .nav-links ul li:hover::after{
+        width:100%;
+    }
+    .text-box{
+        width:90%;
+        color:#fff;
+        position:relative;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        text-align:center;
+    }
+    .text-box h1{
+        font-size:52px;
+        
+    }
+    .text-box p{
+        margin:10px 0 40px;
+        font-size:14px;
+        color:#fff;
+        
+    }
+    .hero-btn{
+        display:inline-block;
+        text-decoration:none;
+        color:#fff;
+        border:1px solid #fff;
+        padding:17px 34px;
+        font-size:13px;
+        background:transparent;
+        position:relative;
+        cursor:pointer;
+        
+
+    }
+    .hero-btn:hover{
+        border:1px solid #f44336;
+        background:#f44336;
+        transition:1s;
+
+    }
+    /*------campus------*/
+    .row{
+        margin-top:5%;
+        display:flex;
+        justify-content:space-between;
+    }
+    .campus{
+        width:80%;
+        margin:auto;
+        text-align:center;
+        padding-top:30px;
+    }
+    .campus-col{
+        flex-basis:32%;
+        border-radius:10px;
+        margin-bottom:30px;
+        position:relative;
+        overflow:hidden;
+    }
+    .campus-col img{
+        height:80%;
+        width:100%;
+    }
+    /*------team------*/
+    .gg{
+        margin-to3:5%;
+        margin-bottom:30px;
+        margin-left:10%;
+        margin-right:10%;  
+        
+        display:flex;
+        justify-content:space-between;
+    }
+    .team-uu{
+        flex-basis:31%;
+        background:#fff3f3;
+        border-radius:10px;
+        border-bottom:22%;
+        margin-bottom:5%;
+        padding:20px;12px;
+        box-sizing:border-box;
+        transition:0.5s;
+    }
+    p{
+        
+        font-size:14px;
+        font-weight:300;
+        
+        padding:5px;
+    }
+    h2{
+        text-align:center;
+        font-weight:600;
+        margin:10px 50px 0px 50px ;
+
+    }
+    h4{
+        text-align:center;
+        font-weight:600;
+        margin:10px 50px 0px 50px ;
+
+    }
+    .team-uu:hover{
+        box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+    }
+    h5{
+        color:red;
+    }
+    .kk{
+        margin-top:0px;
+        text-align:center;
+    }
+    .kk p{
+        width:500px;
+        text-align:center;
+
+    }
+    .kk h4{
+        text-align:center;
+        margin-top:0;
+        padding-top:0px;
+        
+    }
+    .kk h6{
+        
+        margin-bottom:0;
+        padding-bottom:0px;
+        
+    }
+    #rr{
+        text-align:center;
+        
+
+    }
+     
+    
+    </style>
+    
+    
+    
+
+    <body bgcolor="#D9DDDC">
+        <a name="cc"></a>
+        <section class="jj">
+            <nav>
+                <a href="#"><img src="https://cdn1.vectorstock.com/i/1000x1000/40/15/lion-head-logo-design-vector-36044015.jpg"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="file:///C:/Users/JYOTI/Desktop/jj/course.html">Course</a></li>
+                        <li><a href="file:///C:/Users/JYOTI/Desktop/jj/about.html">About us</a></li>
+                        <li><a href="file:///C:/Users/JYOTI/Desktop/jj/image.html">Image</a></li>
+                        <li><a href="file:///C:/Users/JYOTI/Desktop/jj/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-box">
+                <h1>World's Biggest Institute</h1>
+                <p>Best Institute of computer coaching in agra.courses available such as CCC BCC DFA DOEACC TALLY PGDCA O-LEVEL and many more..</p>
+                    <a href="#" class="hero-btn" >visit us to know more</a>
+                    
+                    
+            </div>
+            </section>
+            <!----campus--->
+            <section class="campus">
+                <h1>Our Global Institute</h1>
+                <p>National Institute of Electronics and Information Technology - NIELIT. , formerly known as the DOEACC Society , is a society that offers information technology training at different levels.</p>
+                <div class="row">
+                    <div class="campus-col">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipP_KLq7WNXcXYCWCoKl6f5tqe8mJl-oeauYjVU=s1360-w1360-h1020">
+                        <div class="layer">
+                            <h3>Shri Raj Computer Institute</h3>
+                            </div>
+                            </div>
+                            <div class="campus-col">
+                                <img src="https://lh3.googleusercontent.com/p/AF1QipMMwnku2YSwM8_rbckE_IXmptvkcMT-NOwza2Q=s1360-w1360-h1020">
+                                <div class="layer">
+                                    <h3>Shri Raj Computer Institute</h3>
+                                    </div>
+                                    </div>
+                                    <div class="campus-col">
+                                        <img src="https://lh3.googleusercontent.com/p/AF1QipP0aZcMf8chGfzVaArCrxB3rOxnUxphkqaBTrSw=s1360-w1360-h1020">
+                                        <div class="layer">
+                                            <h3>Shri Raj Computer Institute</h3>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </section>
+                                            <!----team---->
+                <section class="team">
+                    
+                    <div class="gg">
+                        <div class="team-uu">
+                            <h2>Our Team</h2>
+                            <p>Our amazing team of regulars and part-time volunteers are committed to helping others.
+                                 We take our convictions and turn them into action.
+                                  Think you would be a good fit? Get in touch for more information!</p>
+                            
+                                </div>
+                                <div class="team-uu">
+                                <h2>Our Mission</h2>
+                                <p>To provide upgraded quality I.T. education and practical training 
+                                    in non- formal sector by utilizing institutional resources efficiently and effectively, 
+                                    and fill up the demand supply gap between the manpower
+                                     requirement of the country and output of the formal sectorTo provide ample opportunities to students for developing leadership qualities and achieving distinct professionalism. </p>
+                                </div>
+                                <div class="team-uu">
+                                    <h2>Contact Us</h2>
+                                    <h4>REGD. OFFICE:</h4> 
+
+                                       <p> SARAN NAGAR, DAYALBAGH ROAD, AGRA 282005</p>
+                                        
+                                        <h4>BRANCH OFFICE:</h4> 
+                                        
+                                        <p>C-627, TRANS YAMUNA COLONY, AGRA 282006</p><br>
+                                        
+                                        <p><a href="tel:+919897084047">Call Us</a></p><br>
+                                        <h5><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTJFflLNLFnnscNqCgdrVpPfzzWvlLLQpcQVhQvdgVwzPpchpJxwzwWslNgfPTCZgvRfNB">Email Us: </a></h5>
+                                </div>
+                                </div>
+                                <div class="kk">
+                                <h1><a href="#">About Us</a></h1>
+                                <center><p>National Institute of Electronics and Information Technology - NIELIT. ,
+                                     formerly known as the DOEACC Society ,
+                                     is a society that offers information technology training 
+                                     at different levels. It is associated with the Ministry
+                                      of Electronics and Information Technology of the Goverment of India.
+                                       We www.srcei.in provides all the courses
+                                       content regarding CCC,CCC+,ECC And O Level.</p></div></center>
+
+                                    
+                                    <center><h6><b>SHRI RAJ COMPUTER EDUCATION INSTITUTE</h6></b></center>
+                                    <p id="rr">34/141, New Nagla Padi, Nagla Padi, Agra, Uttar Pradesh 282005, India</p>
+                                    
+                                    <h4>9897084047</h4><br></div>
+                                    <center><a href="#cc"><font color="red">Home</font></a></center>
+                                    
+
+                                </section>
+                                
+        </body>
+    </html>
